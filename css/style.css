@@ -1,0 +1,317 @@
+.form_wD534 {
+  margin: auto;
+  align-items: start;
+  width: min(100%, 550px);
+
+  display: grid;
+  overflow: hidden;
+  padding: 10px;
+  gap: 10px;
+
+  color: var(--color-primary);
+}
+
+.div_lxIp6 {
+  display: grid;
+  overflow: hidden;
+  border: 1.25px solid #ffffff;
+  border-radius: 8px;
+
+  color: #ffffff;
+
+  & .div_Tt7Gc {
+    display: grid;
+    grid-template-columns: 1fr auto;
+
+    &:first-child {
+      border-bottom: 1.25px solid #ffffff;
+    }
+  }
+
+  & input {
+    background: none;
+    border: none;
+    outline: none;
+    height: 60px;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 0 20px;
+
+    overflow: hidden;
+    color: inherit;
+  }
+}
+
+.div_e957c {
+  display: flex;
+  & button {
+    background: none;
+    border: none;
+    outline: none;
+    width: 60px;
+
+    color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.div_tvD26 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 100px), 1fr));
+  gap: 10px;
+  overflow: hidden;
+}
+
+.label_nlBAs {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  align-content: center;
+  padding: 0 10px;
+  gap: 10px;
+  height: 40px;
+
+  border: 1.25px solid #ffffff;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  & input {
+    display: none;
+
+    &:checked ~ span {
+      display: flex;
+    }
+  }
+
+  & span {
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 5px;
+  }
+}
+
+.div_ChjEG {
+  position: relative;
+  display: grid;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+
+  border: 1.25px solid #ffffff;
+
+  &.off {
+    pointer-events: none;
+  }
+}
+
+.div_aHEds {
+  position: absolute;
+  display: grid;
+  inset: 0;
+
+  & input {
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+
+  & hr {
+    position: absolute;
+    left: 0;
+    background: #ffffff;
+    height: 100%;
+
+    border: none;
+    pointer-events: none;
+  }
+}
+
+.div_Swyxl {
+  position: relative;
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  height: 40px;
+
+  mix-blend-mode: difference;
+}
+
+.div_288g5 {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  bottom: 0;
+  width: min(400px, 100%);
+  max-height: 50%;
+
+  overflow-y: auto;
+
+  display: flex;
+  flex-direction: column-reverse;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+}
+
+.div_52rpa {
+  width: 100%;
+  display: grid;
+
+  &:has(.div_WqAlT) {
+    padding: 15px;
+    gap: 15px;
+  }
+}
+
+.div_WqAlT {
+  position: relative;
+  width: 100%;
+  height: 60px;
+
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  border-radius: 5px;
+
+  animation: _right_start 0.15s ease-in-out;
+
+  &.end {
+    pointer-events: none;
+    animation: forwards _right_end 0.15s ease-in-out;
+  }
+
+  & p {
+    padding: 20px;
+  }
+
+  & button {
+    background: none;
+    border: none;
+    outline: none;
+
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+    color: inherit;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+.div_UiyeJ {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  backdrop-filter: blur(5px);
+  padding: 10px;
+
+  & hr {
+    position: fixed;
+    inset: 0;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.div_kMLwr {
+  position: relative;
+  margin: auto;
+  background: #ffffff;
+  width: min(100%, 500px);
+  max-height: 75%;
+  border-radius: 8px;
+
+  overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+}
+
+#input_copy {
+  position: absolute;
+  transform: translate(-100%, -100%);
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.div_Y8Qrq {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+  height: 60px;
+}
+
+.div_0YvDV {
+  display: grid;
+
+  & h4,
+  & p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.div_4GbWt {
+  display: flex;
+  gap: 20px;
+  & button {
+    background: none;
+    border: none;
+    outline: none;
+
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+
+@keyframes _right_start {
+  0% {
+    right: calc(100% + 20px);
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes _right_end {
+  0% {
+    right: 0;
+  }
+
+  100% {
+    right: calc(100% + 20px);
+  }
+}

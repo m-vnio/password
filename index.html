@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer type="module" src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/aaa143d91d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="root">
+        <form class="form_wD534" autocomplete="off">
+            <div class="div_lxIp6">
+                <div class="div_Tt7Gc">
+                    <input type="text" name="password" value="-" readonly>
+                    <div class="div_e957c">
+                        <button type="button" data-action="change"><i class="fa-solid fa-shuffle"></i></button>
+                        <button type="button" data-action="copy"><i class="fa-regular fa-copy"></i></button>
+                    </div>
+                </div>
+                <div class="div_Tt7Gc">
+                    <input type="text" name="descripcion" placeholder="descripcion">
+                    <div class="div_e957c">
+                        <button type="button" data-action="lista_guardado"><i class="fa-solid fa-bars-staggered"></i></button>
+                        <button type="button" data-action="guardar"><i class="fa-regular fa-star"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="div_ChjEG">
+                <div class="div_aHEds">
+                    <input type="range" min="1" value="10" max="100" name="limite">
+                    <hr>
+                </div>
+                <div class="div_Swyxl">
+                    <span>0</span>
+                    <span class="span_LyD6i">-</span>
+                    <span>100</span>
+                </div>
+            </div>
+            <div class="div_tvD26"> 
+                <label class="label_nlBAs">
+                    <input type="checkbox" data-type="mayuscula">
+                    <p>ABC</p>
+                    <span>
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                </label>
+                <label class="label_nlBAs"  >
+                    <input type="checkbox" data-type="minuscula">
+                    <p>abc</p>
+                    <span>
+                        <i class="fa-solid fa-check"></i> 
+                    </span>
+                </label>
+                <label class="label_nlBAs"  >
+                    <input type="checkbox" data-type="numero">
+                    <p>123</p>
+                    <span>
+                        <i class="fa-solid fa-check"></i> 
+                    </span>
+                </label>
+                <label class="label_nlBAs" >
+                    <input type="checkbox" data-type="simbolo">
+                    <p>#$&</p>
+                    <span>
+                        <i class="fa-solid fa-check"></i> 
+                    </span>
+                </label>
+                
+            </div> 
+        </form>
+
+        <div class="div_288g5"><div class="div_52rpa"></div></div>
+
+        <div class="div_UiyeJ" style="display: none;">
+            <hr>
+            <input type="text" id="input_copy" readonly>
+            <div class="div_kMLwr"></div>
+        </div>
+    </div>
+</body>
+</html>
