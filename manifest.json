@@ -3,7 +3,7 @@
     "background_color": "#000000",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/password/index.html",
+    "start_url": "index.html",
     "name": "password",
     "short_name": "password",
     "description": "make strong password",
