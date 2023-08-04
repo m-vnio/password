@@ -7,6 +7,7 @@
     "name": "password",
     "short_name": "password",
     "description": "make strong password",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "img/icon/icon-192x192.png",
