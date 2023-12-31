@@ -10,10 +10,10 @@ export default ()=>{
     const input_copy = document.getElementById('input_copy')
 
     const data  = {}
-    data.mayuscula = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'
+    data.mayuscula = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     data.minuscula = data.mayuscula.toLowerCase()
     data.numero    = '0123456789'
-    data.simbolo   = '({[¿¡@/_-ñ!?]})'
+    data.simbolo   = '({[¿¡@/_-Ññ!?]})'
 
     const input_checkbox = {
         mayuscula : form.querySelector("input[data-type=mayuscula]"),
